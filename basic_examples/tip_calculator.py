@@ -1,4 +1,6 @@
-# Tip Calculator
+# 100 Days of Code - Udemy
+# Day 2 - Tip Calculator
+# https://www.udemy.com/course/100-days-of-code/learn/lecture/17841330#overview
 
 print('Welcome to the tip calculator.')
 bill = float(input('What is the total bill? $'))
