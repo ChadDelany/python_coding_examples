@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1d787ae-8aad-4f60-a96d-45e8830ec076" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/004_rock_paper_scissors.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/band_name_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/001_band_name_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rock_paper_scissors.py" beforeDir="false" afterPath="$PROJECT_DIR$/005_password_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tip_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/002_tip_calculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/treasure_island.py" beforeDir="false" afterPath="$PROJECT_DIR$/003_treasure_island.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/005_password_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/005_password_generator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
