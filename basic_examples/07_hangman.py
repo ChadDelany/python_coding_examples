@@ -8,7 +8,7 @@ import random
 from hangman_words import word_list
 # Import the logo and stages from hangman_art.py
 from hangman_art import logo, stages
-# import clear function
+# clear function for Linux
 import os
 clear = lambda: os.system('clear')
 
