@@ -6,8 +6,8 @@
 import random
 # Update the word list to use the 'word_list' from hangman_words.py
 from hangman_words import word_list
-# Import the logo and stages from hangman_art.py
-from hangman_art import logo, stages
+# Import the logo and stages from art_hangman.py
+from art_hangman import logo, stages
 # clear function for Linux
 import os
 clear = lambda: os.system('clear')

@@ -17,7 +17,7 @@ def caesar(start_text, shift_amount, cipher_direction):
     print(f"Here's the {cipher_direction}d result: {end_text}")
 
 
-from art import logo
+from art_caesar import logo
 
 print(logo)
 
