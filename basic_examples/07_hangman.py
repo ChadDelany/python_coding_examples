@@ -4,8 +4,8 @@
 
 # import random to be able to randomly chose a word
 import random
-# Update the word list to use the 'word_list' from hangman_words.py
-from hangman_words import word_list
+# Update the word list to use the 'word_list' from data_hangman.py
+from data_hangman import word_list
 # Import the logo and stages from art_hangman.py
 from art_hangman import logo, stages
 # clear function for Linux
