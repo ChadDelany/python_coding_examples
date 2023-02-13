@@ -1,4 +1,4 @@
-
+# Coffee Machine Code from Day 15 of 100 Days of Code.
 # Dictionary for coffee machine.
 MENU = {
     "espresso": {
