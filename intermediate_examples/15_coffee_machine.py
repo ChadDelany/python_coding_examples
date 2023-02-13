@@ -1,4 +1,5 @@
 # TODO: 2. Check resources sufficient to make drink order.
+# TODO: 3. Think clearly with a pad of paper.
 
 MENU = {
     "espresso": {
