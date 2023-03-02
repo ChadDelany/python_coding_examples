@@ -4,7 +4,7 @@ import random
 
 tim = Turtle()
 
-# '''Draw a Red Turtle, Move Forward, and Turn Right
+# '''Draw a Red Turtle, Move Forward, and Turn Right'''
 # timmy_the_turtle.shape('turtle')
 # timmy_the_turtle.color('red')
 # timmy_the_turtle.forward(100)
@@ -19,7 +19,7 @@ tim = Turtle()
 # import heroes
 # print(heroes.gen())
 
-# '''Draw a Dashed Line.
+# '''Draw a Dashed Line.'''
 # for _ in range(15):
 #     tim.forward(10)
 #     tim.penup()
@@ -49,9 +49,15 @@ colors = ['CornflowerBlue', 'DarkOrchid', 'IndianRed', 'DeepSkyBlue', 'LightSeaG
 #     draw_shape(shape_side_n)
 
 '''Generate a Random Walk'''
+directions = [0, 90, 180, 270]
+tim.pensize(15)
+tim.speed('fastest')
+num_cycles = 200
 
-
-
+for _ in range(num_cycles):
+    tim.color(random.choice(colors))
+    tim.forward(30)
+    tim.setheading(random.choice(directions))
 
 
 
