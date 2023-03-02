@@ -1,8 +1,8 @@
-# Turtle GUI project
-from turtle import Turtle, Screen
-import random
-
-tim = Turtle()
+# '''Turtle GUI project'''
+# from turtle import Turtle, Screen
+# import random
+#
+# tim = Turtle()
 
 # '''Draw a Red Turtle, Move Forward, and Turn Right'''
 # timmy_the_turtle.shape('turtle')
@@ -33,8 +33,9 @@ tim = Turtle()
 #         tim.forward(100)
 #         tim.right(angle)
 
-# '''Drawing Nested Polygons in Random Colors'''
-colors = ['CornflowerBlue', 'DarkOrchid', 'IndianRed', 'DeepSkyBlue', 'LightSeaGreen', 'wheat', 'SlateGray', 'SeaGreen']
+# """Drawing Nested Polygons in Random Colors"""
+# colors = ['CornflowerBlue', 'DarkOrchid', 'IndianRed',
+#           'DeepSkyBlue', 'LightSeaGreen', 'wheat', 'SlateGray', 'SeaGreen']
 #
 #
 # def draw_shape(num_sides):
@@ -48,21 +49,31 @@ colors = ['CornflowerBlue', 'DarkOrchid', 'IndianRed', 'DeepSkyBlue', 'LightSeaG
 #     tim.color(random.choice(colors))
 #     draw_shape(shape_side_n)
 
-'''Generate a Random Walk'''
+"""Generate a Random Walk"""
+import turtle as t
+import random
+
+tim = t.Turtle()
+t.colormode(255)
+
+
+def random_color():
+    r = random.randint(0, 255)
+    g = random.randint(0, 255)
+    b = random.randint(0, 255)
+    color = (r, g, b)
+    return color
+
+
 directions = [0, 90, 180, 270]
+num_cycles = 200
 tim.pensize(15)
 tim.speed('fastest')
-num_cycles = 200
 
 for _ in range(num_cycles):
-    tim.color(random.choice(colors))
+    tim.color(random_color())
     tim.forward(30)
     tim.setheading(random.choice(directions))
-
-
-
-
-
 
 screen = Screen()
 screen.exitonclick()
