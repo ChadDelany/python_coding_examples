@@ -75,5 +75,5 @@ for _ in range(num_cycles):
     tim.forward(30)
     tim.setheading(random.choice(directions))
 
-screen = Screen()
+screen = t.Screen()
 screen.exitonclick()
