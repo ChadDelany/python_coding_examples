@@ -5,6 +5,7 @@ tim = Turtle()
 screen = Screen()
 
 
+# functions to control movement
 def move_forwards():
     tim.forward(10)
 
@@ -30,6 +31,7 @@ def clear_screen():
     tim.pendown()
 
 
+# Listening for keyboard input
 screen.listen()
 screen.onkey(move_forwards, 'w')
 screen.onkey(move_backwards, 's')
