@@ -24,7 +24,10 @@ def turn_right():
 
 
 def clear_screen():
-    tim.forward(10)
+    tim.clear()
+    tim.penup()
+    tim.home()
+    tim.pendown()
 
 
 screen.listen()
@@ -32,5 +35,6 @@ screen.onkey(move_forwards, 'w')
 screen.onkey(move_backwards, 's')
 screen.onkey(turn_left, 'a')
 screen.onkey(turn_right, 'd')
+screen.onkey(clear_screen, 'c')
 screen.exitonclick()
 
