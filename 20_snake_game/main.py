@@ -13,7 +13,7 @@ screen.tracer(0)
 
 snake = Snake()
 
-# Move the 'snake' automatically
+# Turn game on.
 game_is_on = True
 while game_is_on:
     screen.update()
