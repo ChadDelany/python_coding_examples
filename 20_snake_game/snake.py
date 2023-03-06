@@ -1,5 +1,9 @@
 """Snake Class"""
+
+# Libraries
 from turtle import Turtle
+
+# Constants
 STARTING_POSITIONS = [(0, 0), (-20, 0), (-40, 0)]
 MOVE_DISTANCE = 20
 UP = 90
