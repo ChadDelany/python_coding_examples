@@ -14,8 +14,9 @@ RIGHT = 0
 
 class Snake:
 
-    # Create attributes.
+    # Initialize Class
     def __init__(self):
+        # Create attributes.
         self.segments = []
         self.create_snake()
         self.head = self.segments[0]
