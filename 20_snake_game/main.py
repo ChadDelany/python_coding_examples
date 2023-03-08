@@ -1,5 +1,6 @@
 """"Snake Game"""
 
+# Libraries
 from turtle import Screen
 from snake import Snake
 from food import Food
@@ -12,7 +13,9 @@ screen.bgcolor('black')
 screen.title('My Snake Game')
 screen.tracer(0)
 
+# Instantiate snake and food
 snake = Snake()
+food = Food()
 
 # Keystroke control for snake movement
 screen.listen()
@@ -26,8 +29,10 @@ game_is_on = True
 while game_is_on:
     screen.update()
     time.sleep(0.1)
-
     snake.move()
+
+    # Detect collision with food.
+    
 
 
 

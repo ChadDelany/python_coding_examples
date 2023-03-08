@@ -14,11 +14,13 @@ RIGHT = 0
 
 class Snake:
 
+    # Create attributes.
     def __init__(self):
         self.segments = []
         self.create_snake()
         self.head = self.segments[0]
 
+    # Create snake method.
     def create_snake(self):
         for position in STARTING_POSITIONS:
             new_segments = Turtle('square')
@@ -27,14 +29,15 @@ class Snake:
             new_segments.goto(position)
             self.segments.append(new_segments)
 
+    # Move end of snake to position of snake segment before it (inch-worm movement)
     def move(self):
-        # Move end of snake to position of snake segment before it (inch-worm movement)
         for seg_num in range(len(self.segments) - 1, 0, -1):
             new_x = self.segments[seg_num - 1].xcor()
             new_y = self.segments[seg_num - 1].ycor()
             self.segments[seg_num].goto(new_x, new_y)
         self.head.forward(MOVE_DISTANCE)
 
+    # Change direction of snake - up, down, left, right.
     def up(self):
         if self.head.heading() != DOWN:
             self.head.setheading(UP)

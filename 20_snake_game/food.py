@@ -1,7 +1,11 @@
+"""Food Class"""
+
+# libraries
 from turtle import Turtle
 import random
 
 
+# Food class from Turtle class
 class Food(Turtle):
 
     def __init__(self):
