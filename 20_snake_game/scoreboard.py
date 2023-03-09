@@ -3,9 +3,10 @@
 # Libraries
 from turtle import Turtle
 
-# Contants
+# Constants
 ALIGNMENT = 'center'
 FONT = ('Courier', 24, 'normal')
+
 
 class Scoreboard(Turtle):
 
