@@ -1,4 +1,4 @@
-"""self Class"""
+"""Paddle Class"""
 from turtle import Turtle
 
 
