@@ -1,4 +1,9 @@
+"""Scoreboard Class"""
+
+# Libraries
 from turtle import Turtle
+
+# Constants
 ALIGNMENT = "center"
 FONT = ("Courier", 24, "normal")
 
