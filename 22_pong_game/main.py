@@ -3,6 +3,8 @@
 # Libraries
 from turtle import Screen
 from paddle import Paddle
+from ball import Ball
+import time
 
 # Setup Screen
 screen = Screen()
@@ -11,9 +13,10 @@ screen.setup(width=800, height=600)
 screen.title('Pong')
 screen.tracer(0)
 
-# Instantiate two paddles.
+# Instantiate two paddles, ball.
 r_paddle = Paddle((350, 0))
 l_paddle = Paddle((-350, 0))
+ball = Ball()
 
 # Keystrokes to control paddle movement.
 screen.listen()
@@ -25,8 +28,9 @@ screen.onkey(l_paddle.go_down, 's')
 # Update screen while the game is running.
 game_is_on = True
 while game_is_on:
+    time.sleep(0.1)
     screen.update()
-
+    ball.move()
 
 
 
