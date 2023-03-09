@@ -1,3 +1,6 @@
+"""Food Class"""
+
+# Libraries
 from turtle import Turtle
 import random
 
