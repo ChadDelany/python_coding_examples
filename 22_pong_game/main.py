@@ -14,7 +14,7 @@ screen.setup(width=800, height=600)
 screen.title('Pong')
 screen.tracer(0)
 
-# Instantiate two paddles, ball.
+# Instantiate two paddles, ball, scoreboard.
 r_paddle = Paddle((350, 0))
 l_paddle = Paddle((-350, 0))
 ball = Ball()
@@ -52,7 +52,5 @@ while game_is_on:
     if ball.xcor() < -380:
         ball.reset_position()
         scoreboard.r_point()
-
-
 
 screen.exitonclick()
